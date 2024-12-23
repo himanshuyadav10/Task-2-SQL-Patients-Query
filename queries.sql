@@ -8,11 +8,11 @@ CREATE TABLE Patients (
 -- Insert sample data
 INSERT INTO Patients (patient_id, patient_name, conditions)
 VALUES
-(1, 'Rahul', 'YFEV COUGH'),
-(2, 'Sahil', 'ACNE COUGH'),
-(3, 'Jai', 'DIAB100 MYOP'),
-(4, 'Sonakshi', 'ACNE DIAB100'),
-(5, 'Raj', 'DIAB201');
+(1, 'Daniel', 'YFEV COUGH'),
+(2, 'Alice', ''),
+(3, 'Bob', 'DIAB100 MYOP'),
+(4, 'George', 'ACNE DIAB100'),
+(5, 'Alain', 'DIAB201');
 
 SELECT patient_id, patient_name, conditions
 FROM Patients
